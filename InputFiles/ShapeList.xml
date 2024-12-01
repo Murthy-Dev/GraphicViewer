@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VectorData>
+	<Shape type="line">
+		<A>-1,5; 3,4</A>
+		<B>2,2; 5,7</B>
+		<Color>127; 255; 255; 255</Color>
+	</Shape>
+	<Shape type="circle">
+		<Center>0; 0</Center>
+		<Radius>15.0</Radius>
+		<Filled>false</Filled>
+		<Color>127; 255; 0; 0</Color>
+	</Shape>
+	<Shape type="triangle">
+		<A>-15; -20</A>
+		<B>15; -20,3</B>
+		<C>0; 21</C>
+		<Filled>true</Filled>
+		<Color>127; 255; 0; 255</Color>
+	</Shape>
+	<Shape type="rectangle">
+		<TopLeft>50; 50</TopLeft>
+		<BottomRight></BottomRight>
+		<Filled>false</Filled>
+		<Color>127; 0; 255; 255</Color>
+	</Shape>
+</VectorData>

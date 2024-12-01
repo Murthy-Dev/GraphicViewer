@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="GraphicViewer.Views.GraphicView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModels="clr-namespace:GraphicViewer.ViewModels"
+             SizeChanged="GraphicView_SizeChanged">
+    <Grid>
+        <Canvas x:Name="drawingCanvas" Grid.Row="1" Background="DarkGray">
+            <ItemsControl ItemsSource="{Binding CanvasChildren}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </Canvas>
+        <Image Source="../Icons/Graph.png" Width="100" Height="100"
+                   HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+    </Grid>
+</UserControl>

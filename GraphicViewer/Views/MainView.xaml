@@ -1,0 +1,31 @@
+﻿<Window x:Class="GraphicViewer.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:GraphicViewer.Views"
+        xmlns:viewModels="clr-namespace:GraphicViewer.ViewModels"
+        WindowState="Maximized"
+        WindowStyle="SingleBorderWindow"
+        Title="Graphic Viewer">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/GraphicViewer;component/UIStyles/BorderStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Style="{StaticResource ViewBorderStyle}">
+            <view:MenubarView />
+        </Border>
+
+        <Border Grid.Row="1" Style="{StaticResource ViewBorderStyle}">
+            <view:GraphicView />
+        </Border>
+    </Grid>
+</Window>

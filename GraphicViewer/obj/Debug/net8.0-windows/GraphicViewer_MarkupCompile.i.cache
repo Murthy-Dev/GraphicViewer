@@ -1,0 +1,20 @@
+﻿GraphicViewer
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Shreekantamurthy M S\Desktop\GraphicViewer\GraphicViewer\GraphicViewer\obj\Debug\net8.0-windows\
+GraphicViewer
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\Shreekantamurthy M S\Desktop\GraphicViewer\GraphicViewer\GraphicViewer\App.xaml
+5-1101951648
+
+242034487615
+199205999165
+UIStyles\BorderStyles.xaml;UIStyles\ButtonStyles.xaml;Views\GraphView.xaml;Views\MainView.xaml;Views\MenubarView.xaml;
+
+True
+

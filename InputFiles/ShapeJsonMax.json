@@ -1,0 +1,31 @@
+[
+  {
+    "type": "line",
+    "a": "0;0",
+    "b": "0;5000",
+    "color": "127;255;255;0"
+  },
+  {
+    "type": "circle",
+    "center": "500;500",
+    "radius": 50.0,
+    "filled": false,
+    "color": "127;255;0;0"
+  },
+  {
+    "type": "triangle",
+    "a": "-3000;3000",
+    "b": "3000;3000",
+    "c": "0;-3000",
+    "filled": false,
+    "color": "127;0;255;0"
+  },
+  {
+    "type": "rectangle",
+    "topleft": "-50;30",
+    "bottomright": "50;-30",
+    "filled": true,
+    "color": "127;0;0;255"
+  }
+]
+
